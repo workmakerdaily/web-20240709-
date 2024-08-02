@@ -86,18 +86,6 @@ body {
     gap: 16px;
 }
 
-@media screen and (max-width: 900px) {
-    #main {
-        width: 712px;
-        margin-top: 85px;
-        display: grid;
-        grid-template:
-                "video video video" 405px
-                "impact report group" 232px
-                / 1fr 1fr 1fr;
-        gap: 3px;
-    }
-}
 
 .video {
     grid-area: video;
@@ -116,7 +104,7 @@ body {
 
     position: absolute;
     top: 0;
-    right: 0;
+    right: -2px;
     border-radius: 0px 0px 0px 36px;
     background-color: white;
     background-size: 94px 94px;
@@ -192,14 +180,34 @@ body {
 .impact {
     background-color: rgba(255, 255, 0, 0.8);
     border-radius: 24px;
+    grid-area: impact;
 }
 
 .report {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 24px;
+    grid-area: report;
 }
 
 .group {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 24px;
+    grid-area: group;
+}
+
+@media screen and (max-width: 900px) {
+    #main {
+        width: 712px;
+        margin-top: 85px;
+        display: grid;
+        grid-template:
+                "video video video" 405px
+                "impact report group" 232px
+                / 1fr 1fr 1fr;
+        gap: 3px;
+    }
+    .video-content {
+        border-radius: 36px;
+        height: 100%;
+    }
 }
