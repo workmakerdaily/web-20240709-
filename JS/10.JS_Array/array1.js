@@ -178,5 +178,3 @@ console.log('==============================');
 */
 // console.log(newFruits.splice(1, 2, 'melon'), newFruits); // [ 'banana', 'apple' ] [ 'cacao', 'melon', 'mango' ]
 console.log(newFruits.splice(2, 1), newFruits); // [ 'apple' ] [ 'cacao', 'banana', 'mango' ]
-
-
