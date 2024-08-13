@@ -1,0 +1,167 @@
+@font-face {
+    font-family: kakao;
+    src:url(../resource/font/KakaoRegular.ttf);
+}
+
+body {
+    font-family: kakao,sans-serif;
+    margin: 0;
+}
+
+.wrap_botton {
+    width: 1325px;
+    height: 324px;
+}
+
+
+.wrap_slides {
+    display: flex;
+    width: 1332px;
+    height: 198px;
+}
+
+.inner-slides {
+    display: flex;
+    width: 666px;
+    height: 198px;
+}
+
+
+.box_news {
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    width: 578px;
+    margin: 0 8px;
+    padding: 36px;
+}
+
+.box_news:hover {
+    cursor: pointer;
+}
+
+.box_top {
+    justify-content: flex-start;
+    display: flex;
+    width: 378px;
+    height: 38px;
+}
+
+.icon-box {
+    background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/6562f7bc017800001.png);
+    background-size: cover;
+    margin-right: 12px;
+    width: 38px;
+    height: 38px;
+}
+
+.cate_box {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 6px;
+    line-height: 25px;
+    border-radius: 8px;
+    padding: 4px 12px;
+    background-color: white;
+    width: 49.266px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.date_box {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 14px;
+    margin-left: 12px;
+    width: 79.5px;
+    height: 38px;
+}
+
+.ico_share {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/64/64576.png);
+    background-size: cover;
+    line-height: 0;
+    text-indent: -9999px;
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 550px;
+    overflow: hidden;
+}
+
+.title_box {
+    margin-top: 12px;
+    font-size: 26px;
+    line-height: 38px;
+    height: 76px;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.wrap_link {
+    margin: 16px 0 0 -5px;
+    display: flex;
+}
+
+.link_news {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 110px;
+    margin: 0 0 0 16px;
+    padding: 36px 40px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.link_news:hover {
+    cursor: pointer;
+    text-decoration: none;
+.arror{
+    background-color: gray;
+}
+
+}
+
+.title_link {
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: -.6px;
+    font-weight: 400;
+    width: 90.578px;
+    height: 38px;
+}
+
+.text_news {
+    display: flex;
+    width: 100;
+    height: 38;
+}
+
+.shortcut {
+    display: block;
+    width: 100px;
+    text-align: right;
+    line-height: 38px;
+    font-size: 17px;
+    letter-spacing: -.5px;
+}
+
+.arror {
+    width: 24px;
+    height: 24px;
+    line-height: 25px;
+    font-size: 17;
+    color: white;
+    text-align: center;
+    letter-spacing: -.5px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 7px 0 0 8px;
+}
